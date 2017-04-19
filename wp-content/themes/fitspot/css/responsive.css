@@ -1,0 +1,866 @@
+/* variables */
+/*font-families*/
+/*sizes*/
+/*colors*/
+@media (min-width: 1200px) {
+  header .contact_number a {
+    color: #333333 !important; } }
+@media (max-width: 1199px) {
+  .team-members .team-member {
+    margin-right: 45px; }
+
+  #b2b_page_main .clients_content .img {
+    padding: 25px 10px; }
+
+  #b2b_page_main .section-benefits > h2 {
+    margin-bottom: 40px; } }
+@media (min-width: 992px) {
+  .services-items-mobiles {
+    display: none !important; }
+
+  .logo_dark {
+    display: none; }
+
+  #mobileMenuButton {
+    display: none; } }
+@media (max-width: 991px) {
+  .team-members .team-member {
+    float: left;
+    margin-right: 0;
+    width: 33%;
+    margin-bottom: 30px; }
+
+  .team-members .team-member img {
+    margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+
+  .section-team a.btn {
+    margin-top: 43px; }
+
+  .services-items-desktop {
+    display: none !important; }
+
+  .services-items-mobiles {
+    display: table !important;
+    width: 100%; }
+
+  .section-services .services-items .services-item {
+    width: 50%; }
+
+  .section-services .services-items .services-item .item-details {
+    margin-bottom: 50px; }
+
+  .section-services .services-items:nth-last-child(2) .services-item .item-details {
+    margin-bottom: 50px; }
+
+  .testimonials-services .testimonials-item .details {
+    max-width: 100%; }
+
+  .download-app .img {
+    display: none; }
+
+  .download-app-container {
+    padding: 33px 0; }
+
+  footer .col-1,
+  footer .col-2,
+  footer .col-3,
+  footer .col-4 {
+    margin-bottom: 40px;
+    text-align: center; }
+
+  .main-navigation {
+    display: none; }
+
+  .banner-content form .first {
+    width: 215px; }
+
+  .banner-content form .second {
+    width: 160px; }
+
+  .banner-content form .third {
+    width: 120px;
+    border-right: none; }
+
+  header .logo-light {
+    display: none; }
+
+  header#masthead {
+    padding-top: 15px;
+    background: white;
+    padding-bottom: 15px;
+    position: relative; }
+
+  header#masthead > .container {
+    padding-right: 20px !important;
+    padding-left: 20px !important; }
+
+  #mobileMenuButton i {
+    font-size: 28px;
+    color: #333; }
+
+  .site-branding {
+    text-align: center;
+    float: none !important; }
+
+  #mobileMenuButton {
+    position: absolute;
+    left: 0;
+    top: 3px; }
+
+  .testimonials-services .testimonials-item:nth-child(2) {
+    margin-top: 73px; }
+
+  #b2b_page_main .testimonials-services .testimonials-item {
+    width: 100%;
+    display: block; }
+
+  .clients_content {
+    padding: 14px 0; }
+
+  .clients_content .img {
+    padding: 7px 10px; }
+
+  .clients_content .img img {
+    max-width: 80px;
+    max-height: 50px; }
+
+  #b2b_page_main .clients_content p {
+    padding-top: 31px; }
+
+  #b2b_page_main .clients_content .img {
+    padding: 25px 20px; }
+
+  #b2b_page_main .clients_content .img {
+    padding: 25px 20px; }
+
+  #b2b_page_main .section-performance ul li h2 {
+    font-size: 14px; }
+
+  #b2b_page_main .testimonials-item.slick-slide .image-testimonial img {
+    display: inline-block; }
+
+  #b2b_page_main .testimonials-services .testimonials-items.slick-initialized .testimonials-item .title {
+    margin-top: 20px; }
+
+  .page-template-contact-page .testimonials-services .testimonials-item:nth-child(2) {
+    margin-top: 20px; }
+
+  .contact_page_main .image-testimonial,
+  .page-template-contact-page .contact_page_main .testimonials-services .testimonials-item .title,
+  .contact_page_main .testimonials-services .testimonials-item .content p,
+  .contact_page_main .testimonials_content h2 {
+    text-align: center; }
+
+  .contact_page_main .image-testimonial img {
+    display: inline-block;
+    margin-top: 10px; }
+
+  .banner.banner-small {
+    display: table;
+    width: 100%; }
+
+  .banner.banner-small p.GIFT-CARDS {
+    display: table-cell;
+    vertical-align: middle; }
+
+  .press_page_content .press_row h3 {
+    font-size: 24px; }
+
+  .single-fitspot_jobs .jobs_page_content h3 {
+    font-size: 30px; }
+
+  .page-template-giftcardpackage .giftcard-item.no-discount .layer {
+    margin-bottom: 19px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .form-only-instance .workout-form-tpl .form-container .first {
+    width: 245px; }
+
+  .form-only-instance .workout-form-tpl .form-container .second {
+    width: 160px; }
+
+  .form-only-instance .workout-form-tpl .form-container .third {
+    width: 140px; } }
+@media (min-width: 768px) {
+  .section-pricing > .booknow {
+    display: none !important; }
+
+  #b2b_page_main .section-services-container > .container {
+    padding: 0; } }
+@media (max-width: 767px) {
+  .section-team-container {
+    padding: 30px 0 48px 0; }
+
+  .section-team > h2 {
+    font-size: 28px;
+    margin-bottom: 35px; }
+
+  .section-team a.btn {
+    margin-top: 10px; }
+
+  .section-benefits .links .refer,
+  .benefits-items .content {
+    display: none; }
+
+  .pricing-item .row2 {
+    float: right; }
+
+  .pricing-item .row1 {
+    float: left; }
+
+  .pricing-item .row1,
+  .pricing-item .row1 * {
+    text-align: left; }
+
+  .pricing-item .row2,
+  .pricing-item .row2 * {
+    text-align: right; }
+
+  .pricing-item .btn {
+    display: none; }
+
+  .section-benefits-container {
+    background-color: white !important; }
+
+  .section-pricing-container {
+    background-color: #f2f6ee; }
+
+  .pricing-items {
+    padding: 20px 3px;
+    border: 1px solid #ccc;
+    background: white; }
+
+  .pricing-items .charge_frequecy, .pricing-items .price,
+  .pricing-items .subheading, .pricing-items .title {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    color: #333333;
+    margin-bottom: 0; }
+
+  .pricing-items .charge_frequecy,
+  .pricing-items .subheading {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.41;
+    color: #878787;
+    margin-bottom: 0; }
+
+  .pricing-item {
+    border: none;
+    margin-bottom: 35px; }
+
+  .pricing-items .booknow {
+    display: none !important; }
+
+  .pricing-item:last-child {
+    margin-bottom: 0; }
+
+  .section-pricing-container {
+    padding: 30px 0 58px 0; }
+
+  .section-pricing > .booknow {
+    display: block !important;
+    margin-top: 40px; }
+
+  .section-pricing > .booknow .btn {
+    display: block !important; }
+
+  .download-app-container {
+    display: none !important; }
+
+  .site-footer {
+    padding: 42px 0; }
+
+  footer .col-1,
+  footer .col-2,
+  footer .col-3 {
+    display: none; }
+
+  #page-content-scrollable > .home_banner {
+    min-height: 455px; }
+
+  .banner-content h1 {
+    margin-top: 70px;
+    font-size: 39px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 22px; }
+
+  .banner-content h2 {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; }
+
+  .banner-content .select,
+  .banner-content .input {
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important; }
+
+  .banner-content .submit,
+  .banner-content form .first,
+  .banner-content form .second,
+  .banner-content form .third {
+    width: 100%;
+    margin-bottom: 15px; }
+
+  .banner-content .submit {
+    margin-bottom: 30px; }
+
+  .testimonials-services .testimonials-item .content, .testimonials-services .testimonials-item .content p, .testimonials-services .testimonials-item .title p, .testimonials-services .testimonials-item .title {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; }
+
+  .testimonials-services .testimonials-item .title {
+    font-style: normal; }
+
+  .testimonials-services .testimonials-item:nth-child(2),
+  .testimonials-services .testimonials-item {
+    margin-top: 40px; }
+
+  .testimonials-services .testimonials-item:first-child {
+    margin-top: 0px; }
+
+  .section-testimonials-container {
+    padding: 33px 0 50px 0; }
+
+  .banner-content form {
+    display: block; }
+
+  form .first,
+  form .third {
+    display: none; }
+
+  .workout-form-tpl form .first,
+  .workout-form-tpl form .third {
+    display: block; }
+
+  .team-members .team-member:last-child {
+    display: none; }
+
+  .formLastElement,
+  .formMiddleElement,
+  .formFirstElement {
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important; }
+
+  .page-template-B2B-Page .b2b_page_banner .banner-content h1 {
+    font-size: 39px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 70px; }
+
+  .page-template-B2B-Page .b2b_page_banner .banner-content h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 85px; }
+
+  .page-template-B2B-Page .register_btn {
+    width: 100%; }
+
+  .page-template-B2B-Page .register_btn button {
+    width: 100%; }
+
+  .page-template-B2B-Page .call_text {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 8px;
+    margin-bottom: 20px; }
+
+  #b2b_page_main .clients_content p {
+    padding-top: 0;
+    display: block;
+    float: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #878787; }
+
+  #b2b_page_main .clients_content .img {
+    padding: 25px 15px; }
+
+  #b2b_page_main .section-performance-container {
+    padding: 35px 0 45px 0; }
+
+  #b2b_page_main .section-performance ul li h2 {
+    font-size: 20px; }
+
+  .section-performance ul li .performance_des {
+    font-size: 16px; }
+
+  #b2b_page_main .section-performance ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 !important;
+    width: 100%;
+    margin-bottom: 50px; }
+
+  #b2b_page_main .section-performance ul li:last-child {
+    margin-bottom: 0; }
+
+  #b2b_page_main .section-benefits > h2, .section-benefits > h2 p {
+    font-size: 28px; }
+
+  #b2b_page_main .section-benefits-container {
+    padding: 40px 0 60px 0;
+    background-color: #f2f6ee !important; }
+
+  #b2b_page_main .section-benefits .btnRow {
+    margin-top: 15px; }
+
+  #b2b_page_main .section-pricing-container {
+    background: white; }
+
+  #b2b_page_main .section-pricing > h2 {
+    background: white;
+    margin-bottom: 55px; }
+
+  #b2b_page_main .pricing-item .row1,
+  #b2b_page_main .pricing-item .row1 * {
+    text-align: center; }
+
+  #b2b_page_main .pricing-items .title {
+    font-size: 21px; }
+
+  #b2b_page_main .pricing-item .charge_frequecy {
+    font-size: 16px; }
+
+  #b2b_page_main .pricing-item {
+    margin-bottom: 42px;
+    padding-bottom: 42px;
+    border-bottom: 1px solid #dadada; }
+
+  #b2b_page_main .pricing-item .row2, #b2b_page_main .pricing-item .row2 *,
+  #b2b_page_main .pricing-item .row1, #b2b_page_main .pricing-item .row1 * {
+    text-align: center;
+    float: none; }
+
+  #b2b_page_main .pricing-items {
+    padding: 0;
+    border: 0; }
+
+  #b2b_page_main .pricing-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    border-bottom: none; }
+
+  #b2b_page_main .section-services-container {
+    padding: 60px 0 60px 0; }
+
+  #b2b_page_main .section-services .booknow {
+    margin-top: 50px; }
+
+  #b2b_page_main .section-services .booknow a {
+    display: block; }
+
+  #b2b_page_main .section-services .services-items-mobiles:last-child {
+    display: none !important; }
+
+  #b2b_page_main .team-members .team-member:last-child {
+    display: inline-block; }
+
+  #b2b_page_main .section-testimonials-container {
+    padding: 40px 0; }
+
+  .banner.banner-small {
+    min-height: 260px !important; }
+
+  .site-header + .GIFT-CARDS {
+    margin-top: 75px;
+    font-size: 36px; }
+
+  .success-stories {
+    background: #f2f6ee !important; }
+
+  .success-stories .sections:first-child {
+    margin-top: 20px; }
+
+  .success-stories .sections {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+  .success-stories .sections:last-child {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+
+  .Trainer-Success-Stor {
+    font-size: 30px; }
+
+  .single-services-subcontainer {
+    margin-top: 0; }
+
+  .faq-container {
+    margin-top: 0 !important;
+    padding-bottom: 15px !important; }
+
+  .site-content .container,
+  .page-template-team .container.out_story_container {
+    padding-top: 50px !important; }
+
+  .team_page_content .modal-body .modal-body-content .header-container .image-container {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin: 25px 0 20px 0; }
+
+  .team_page_content .modal-body .modal-body-content .header-container .person-post-content {
+    float: none;
+    margin: 0;
+    width: 100%;
+    text-align: center; }
+
+  .team_page_content .modal-body .modal-body-content .header-container .person-post-content h4 {
+    font-size: 24px; }
+
+  .team_page_content .modal-body button {
+    margin-right: 20px; }
+
+  .page-template-contact .site-content .container, .page-template-team .container.out_story_container {
+    background: #f6f6f6; }
+
+  .contact_us_now .contact_form p:first-child {
+    font-size: 20px; }
+
+  .office_address,
+  .office_address *,
+  .office_address p {
+    text-align: center !important; }
+
+  .office_address p a {
+    color: inherit !important; }
+
+  .page-template-contact .out_story_container .story_page_content {
+    margin-bottom: 90px; }
+
+  .single-fitspot_jobs .jobs_page_content h3 {
+    display: block;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.67; }
+
+  .single-fitspot_jobs .jobs_page_content p {
+    line-height: 1.5; }
+
+  .single-fitspot_jobs .jobs_page_content h4 {
+    margin-bottom: 5px; }
+
+  .single-fitspot_jobs .jobs_page_content .core_values {
+    padding-bottom: 0; }
+
+  .single-fitspot_jobs .perk_benefits_main {
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #efefef;
+    border-top: 1px solid #efefef; }
+
+  .single-fitspot_jobs .team_page_content {
+    margin-bottom: 50px; }
+
+  .page-template-cities .team_page_content h3 {
+    display: block; }
+
+  .locations .coming_soon_cities,
+  .locations .available_in_cities {
+    float: none;
+    width: 100%;
+    margin-right: 0; }
+
+  .locations .available_in_cities {
+    margin-bottom: 50px; }
+
+  .form-only-instance .workout-form-tpl .form-container select {
+    border: 1px solid #979797; }
+
+  .section-desciption-container {
+    padding: 0px 0px 60px 0px; }
+
+  .section-subdescription h2,
+  .section-desciption .description h2 {
+    font-size: 26px; }
+
+  .section-subdescription a,
+  .section-subdescription p,
+  .section-desciption .description p {
+    font-size: 18px;
+    line-height: 1.47; }
+
+  .single-cities .section-services-container {
+    padding: 0; }
+
+  .single-cities .section-services .services_content {
+    margin-bottom: 0px; }
+
+  .single-cities .section-pricing-container {
+    padding-top: 0;
+    background: white; }
+
+  .single-cities .section-team-container {
+    padding-top: 0;
+    padding-bottom: 40px; }
+
+  .single-cities .section-subdescription-container {
+    padding: 0px 0 45px 0; }
+
+  .page-template-fitspot-trainer .site-content .container,
+  .page-template-contact-page .site-content .container,
+  .page-template-B2B-Page .site-content .container,
+  .page-template-home .site-content .container {
+    padding-top: 0px !important; }
+
+  .page-template-faq .site-content .container {
+    padding-top: 20px !important; }
+
+  .page-template-giftcardpackage .Give-the-Gift-of-Fit {
+    margin-top: 30px; }
+
+  .page-template-giftcardpackage .Give-the-Gift-of-Fit > span:first-child {
+    display: none; }
+
+  .page-template-giftcardpackage .main-rectangle {
+    margin-top: 0; }
+
+  .page-template-giftcardpackage .main-rectangle .session-section {
+    margin-top: 10px !important; }
+
+  .page-template-giftcardpackage .All-sessions-are-60 {
+    font-size: 17px; }
+
+  .page-template-giftcardpackage .-Session {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 23px; }
+
+  .page-template-giftcardpackage .giftcard-item .layer {
+    font-size: 24px;
+    margin-top: 20px; }
+
+  .page-template-giftcardpackage .buynow {
+    margin-top: 28px;
+    margin-bottom: 20px; }
+
+  .page-template-giftcardpackage .Rectangle-9 {
+    padding-bottom: 40px; } }
+@media (max-width: 600px) {
+  .container {
+    padding-left: 35px;
+    padding-right: 35px; }
+
+  .team-members .team-member img {
+    max-width: 124px;
+    max-height: 124px; }
+
+  .team-members .team-member {
+    width: 50%;
+    margin-bottom: 40px; }
+
+  #b2b_page_main .team-members .team-member {
+    width: 50%;
+    margin-bottom: 40px; }
+
+  .section-benefits a.btn,
+  .section-services a.btn,
+  .section-team a.btn {
+    margin-top: 0;
+    display: block; }
+
+  .section-services-container {
+    padding: 40px 0 58px 0; }
+
+  .section-services > h2 {
+    font-size: 28px; }
+
+  .section-services .services_content {
+    margin-bottom: 70px; }
+
+  .section-services .services-items .services-item {
+    padding: 0 0px; }
+
+  .section-benefits-container {
+    background-color: #f2f6ee;
+    padding: 33px 0 58px 0; }
+
+  .section-benefits > .details br {
+    display: none; }
+
+  #b2b_page_main .clients_content .img {
+    padding: 15px 25px; }
+
+  .single-cities .section-services-container {
+    padding: 0; } }
+@media (max-width: 500px) {
+  .header-c {
+    padding-top: 20px !important;
+    padding-bottom: 0 !important; }
+    .header-c .contact_number {
+      padding-top: 20px; }
+
+  .faq-links {
+    padding: 0; }
+
+  .faq-tabs li a {
+    padding: 19px 0; }
+
+  .nav-tabs.nav-justified > .active > a {
+    box-shadow: 0px 1px 0px 0px #fff !important;
+    border-bottom: 0 !important; }
+
+  .page-template-faq #fitspotters > .margintop35 {
+    margin-top: 20px; }
+
+  .page-template-faq .faqsection-heading,
+  .page-template-faq .Yes-We-are-live-in {
+    font-size: 15px !important; }
+
+  .faq_tabs {
+    padding-bottom: 20px !important; }
+
+  .faq-tabs.nav li a {
+    font-size: 11px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important; }
+
+  .faq-tab-width .faq-tabs li {
+    width: 31%; } }
+@media (max-width: 480px) {
+  .services-item .title {
+    font-size: 16px; }
+
+  .benefits-items .title {
+    font-size: 15px; }
+
+  .mobileMenu {
+    width: 100%; }
+
+  #b2b_page_main .clients_content .img {
+    padding: 15px 20px; }
+
+  .out_story_container .story_page_content p img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: auto;
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    left: -21px;
+    border: none; } }
+@media (max-width: 425px) {
+  .testimonials-services > h2 p, .testimonials-services > h2 {
+    font-size: 30px; } }
+@media (max-width: 380px) {
+  .team-members .team-member {
+    width: 50%;
+    margin-bottom: 20px;
+    min-height: 210px; }
+
+  #b2b_page_main .team-members .team-member {
+    width: 50%;
+    margin-bottom: 20px;
+    min-height: 210px; }
+
+  .page-template-B2B-Page .b2b_page_banner .banner-content h1 {
+    font-size: 37px; }
+
+  #b2b_page_main .clients_content {
+    padding: 20px 0; }
+
+  #b2b_page_main .clients_content .img {
+    padding: 15px 7px; } }
+@media (max-width: 374px) {
+  .team-members .team-member {
+    width: 100%;
+    margin-bottom: 40px;
+    min-height: 1px; }
+
+  #b2b_page_main .team-members .team-member {
+    width: 100%;
+    margin-bottom: 40px;
+    min-height: 1px; }
+
+  .services-items-mobiles {
+    display: block !important; }
+
+  .section-services .services-items .services-item {
+    display: block;
+    width: 100%; }
+
+  .services-item {
+    min-height: 1px; }
+
+  .section-benefits .benefits-item {
+    display: block;
+    width: 100%; }
+
+  .features-mobile .item {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left; }
+
+  .clients_content .img {
+    width: 50%;
+    display: inline-block;
+    text-align: center; }
+
+  .page-template-B2B-Page .b2b_page_banner .banner-content h1 {
+    font-size: 30px; }
+
+  .page-template-B2B-Page .b2b_page_banner .banner-content h2 {
+    font-size: 18px; }
+
+  .giftcard-item {
+    width: 100%; } }
+@media (max-width: 319px) {
+  html,
+  body {
+    min-width: 320px !important;
+    width: 320px !important; } }
+
+/*# sourceMappingURL=responsive.css.map */

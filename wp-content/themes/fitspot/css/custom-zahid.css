@@ -1,0 +1,815 @@
+.margintop25{
+    margin-top: 25px;
+}
+.margintop40{
+    margin-top: 40px;
+}
+.paddinglr0{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.paddingbottom10{
+    padding-bottom: 10px;
+}
+.paddingbottom30{
+    padding-bottom: 30px;
+}
+.paddingtopbottom0{
+    padding-bottom: 0px!important;
+    padding-top:0px!important;
+}
+.paddinglr10{
+    padding-left:10px;
+    padding-right: 10px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.list-nostyle{
+    list-style: none;
+}
+.trainer-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.trainer-item{
+}
+
+/*Gift CArds checkout*/
+
+.Form-label--tick {
+    position: relative;
+    display: inline-block;
+    margin:0 5px 0 0 !important;
+    padding: 0 !important;
+}
+.Form-label-radio, .Form-label-checkbox {
+    position: absolute;
+    z-index: -1;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    overflow: hidden;
+}
+.Form-label-radio+.Form-label-text, .Form-label-checkbox+.Form-label-text {
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.Form-label-radio+.Form-label-text::before, .Form-label-checkbox+.Form-label-text::before {
+    font-size: .875em;
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    line-height: 1.5;
+    border: solid 1px #979797;
+    margin-right:10px;
+    content: "\00a0";
+    color: white;
+    background-clip: padding-box;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 8px;
+    outline: none;
+}
+.Form-label-radio+.Form-label-text{
+    font-size: 16px;
+    color: #333333;
+}
+.Form-label-radio+.Form-label-text::before {
+    border-radius: 100%;
+}
+
+.Form-label-radio+.Form-label-text:hover::before, .Form-label-checkbox+.Form-label-text:hover::before {
+    border-color:#74ba31 !important;
+
+}
+
+.Form-label-radio:checked+.Form-label-text::before, .Form-label-checkbox:checked+.Form-label-text::before {
+    background-color: transparent;
+    border-color: #74ba31;
+    color: #74ba31;
+    font-family: FontAwesome;
+    content: "\f00c";
+    outline: none;
+}
+
+.Form-label-radio:focus+.Form-label-text::before, .Form-label-checkbox:focus+.Form-label-text::before, .Form-label-radio:active+.Form-label-text::before, .Form-label-checkbox:active+.Form-label-text::before {
+    border-color: #3bb8ff;
+    box-shadow:none;
+}
+
+
+.form-left-container,
+.form-right-container{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+.form-left-container{
+    width: 69%;
+    float: left;
+    padding-right: 15px;
+}
+.form-right-container{
+    padding-left: 15px;
+    padding-bottom: 20px;
+    float: left;
+    width: 31%;
+}
+
+.form-left-container label{
+
+}
+
+/*Gift CArds checkout*/
+@media only screen and  (min-width: 768px) {
+    .session-section{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Buy-Now {
+        width: 100%!important;
+    }
+    .Rectangle-4 {
+        border-radius: 4px;
+        background-color: #74ba31;
+        border: solid 1px #50950e;
+
+        padding:10px 0px 10px 0px;
+    }
+    .sections{
+        margin-top:30px;
+    }
+    .paddingsmlr0{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .trainer-item{
+        padding-left: 40px;
+        padding-right:40px;
+    }
+    .faq-tab-width .faq-tabs li{
+        width:25.67%!important;
+         padding-left: 2px;
+    padding-right:2px;
+    }
+    #accordion{
+        width:84%;
+        margin-left:8%
+    }
+   
+}
+@media only screen and  (min-width: 1200px) {
+    .session-section{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+    .sections{
+        margin-top:30px;
+    }
+    .paddingsmlr0{
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .trainer-item{
+        padding-left: 80px;
+        padding-right:80px;
+    }
+    .faq-tab-width{
+        width:100%!important;
+        margin-left:0;
+        margin-right:0;
+    }
+    .faq-tab-width .faq-tabs li{
+        width:25.67%!important;
+         padding-left: 2px;
+    padding-right:2px;
+    }
+    #accordion{
+        width:84%;
+        margin-left:8%
+    }
+
+}
+@media only screen and  (min-width: 1280px) {
+    .session-section{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+    .sections{
+        margin-top:30px;
+    }
+    .form{
+
+    }
+    .paddingsmlr0{
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .trainer-item{
+        padding-left: 80px;
+        padding-right:80px;
+    }
+    .faq-tab-width{
+        width:100%;
+        margin-left:0;
+        margin-right:0;
+    }
+    .faq-tab-width .faq-tabs li{
+        width:30%!important;
+         padding-left: 2px;
+    padding-right:2px;
+    }
+    #accordion{
+        width:84%;
+        margin-left:8%
+    }
+}
+.main-rectangle{
+    margin-top:66px;
+}
+.Give-the-Gift-of-Fit {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin-top:52px;
+}
+.All-sessions-are-60 {
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+.Rectangle-9{
+    background-color: #f2f6ee;
+    padding-bottom:110px;
+}
+.Rectangle {
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 0.5px #cddabe;
+    margin-left:1%!important;
+    margin-right: 1%!important;
+}
+.Rectangle-copy {
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 0.5px #cddabe;
+    margin-left:1%!important;
+    margin-right: 1%!important;
+}
+.-Session {
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin-top:33px;
+}
+.layer {
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+    margin-top:56px;
+}
+.Rectangle-4 {
+
+}
+.buynow{
+    text-align: center;
+    display: inline-block;
+    margin-top: 47px;
+    margin-bottom: 40px; 
+}
+.buy-now {
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 12px 15px 12px 15px!important;
+    background-color: #74ba31!important;
+    border-radius:5px;
+}
+@media screen and (max-width: 320px) {
+    .-Session{
+        font-size: 20px;
+    }
+    .layer{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .padding-0-767{
+        padding:0 !important;
+    }
+    #service-links,.SERVICES{
+        display: none;
+    }
+    .section-left {
+        padding:0px!important;
+
+    }
+    .section-right {
+        border-radius: 3px;
+        padding:0px!important;
+
+    }
+    .session-section{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+        margin-top:30px!important;
+    }
+    .Rectangle-4 {
+        border-radius: 4px;
+        background-color: #74ba31;
+        border: solid 1px #50950e;
+        padding:10px 0px 10px 0px;
+        margin-top:47.5px;
+        margin-bottom:40px;
+    }
+    .Buy-Now {
+        width: 100%!important;
+    }
+    .col-form-label{
+        padding-bottom:10px;
+    }
+    .control-label{
+        padding-bottom:10px;
+    }
+
+    .month{
+        /*        padding-left:0px!important;
+                padding-right: 0px!important;*/
+        padding-bottom: 10px;
+    }
+    .year{
+        /*        padding-left:0px!important;
+                padding-right: 0px!important;*/
+        padding-bottom: 10px;
+    }
+    .expirydate{
+        padding-left:0px!important;
+        padding-right: 0px!important;
+    }
+    .paddingsmlr0{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .lname ,.zcode{
+        padding-top:5px;
+    }
+    .form{
+        margin-top: 15px!important;
+    }
+    .sections{
+        padding-left:6px!important;
+        padding-right:6px!important;
+        margin-top:12px;
+    }
+    .trainer-item{
+        padding-left: 15px;
+        padding-right:15px;
+    }
+}
+.giftcard-header{
+    background-image:url('http://localhost/fitspot/wp-content/uploads/2017/03/bitmap.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 330px !important;
+}
+.GIFT-CARDS {
+    margin-top:84px;
+    font-size: 42px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+/******************************** Gift Card Check out***************************/
+.GIFT-CARD-DETAILS {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #262626;
+    margin-top: 35px;
+}
+.form-section{
+    background-color: #F2F6EE;
+}
+@media only screen and  (min-width: 1280px) {
+    .form-left{
+        background-color: #fff;
+        margin-top: 41px;
+        padding: 15px 60px 30px 40px;
+    }
+    .form-right{
+        background-color: #fff;
+        margin-top: 41px;
+        padding:15px;
+        padding-bottom: 30px;
+    }
+
+}
+@media only screen and  (min-width: 1200px) {
+    .form-left{
+        background-color: #fff;
+        margin-top: 41px;
+        padding:15px 40px 15px 40px;
+        padding-bottom: 30px;
+    }
+    .form-right{
+        background-color: #fff;
+        margin-top: 41px;
+        padding:15px;
+        padding-bottom: 30px;
+    }
+
+}
+@media only screen and  (min-width: 768px) {
+    .form-left{
+        background-color: #fff;
+        margin-top: 41px;
+        padding:15px 40px 15px 40px;
+        padding-bottom: 30px;
+    }
+    .form-right{
+        background-color: #fff;
+        margin-top: 41px;
+        padding:15px;
+        padding-bottom: 30px;
+    }
+    label{
+        padding-bottom:10px;
+    }
+    .month,.year{
+        padding-bottom: 10px;
+    }
+
+}
+@media only screen and  (max-width: 767px) {
+    .form-left{
+        background-color: #fff;
+        margin-top: 20px;
+        padding:15px 40px 15px 40px;
+        padding-bottom: 30px;
+    }
+    .form-right{
+        background-color: #fff;
+        margin-top: 20px;
+        padding:15px;
+        padding-bottom: 30px;
+    }
+/*****Faq****/
+    .faq-tab-width .faq-tabs li{
+        width:30%;
+    }
+    .faq-tabs li a,.panel-title {
+        font-size: 15px;
+    }
+}
+
+
+
+.form-fields{
+    margin-top: 25px;
+}
+.radio{
+    margin-top: 0px;
+}
+label{
+    font-weight: normal!important;
+}
+.message{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.PAYMENT-DETAILS {
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+}
+.text{
+    height: 34px!important;
+}
+.card{
+    height:34px!important;
+    font-size:14px!important;
+}
+.order-btn{
+    padding: 4px 36px!important;
+}
+.Order-Summary {
+
+    font-size: 20px;
+    font-weight: 300;
+    color: #262626;
+}
+.Single-session-gift {
+    margin-top: 32.5px;
+    font-size: 16px;
+    color: #333333;
+}
+.margin40{
+    margin-top:40px;
+}
+.link-decoration:hover{
+    text-decoration: none;
+}
+/***************************Fitspot Gym****************************************/
+.Become-a-Fitspot-Gym {
+
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: #262626;
+    margin-top:20.5px;
+}
+.BOOST-BRAND-AWARENES {
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+}
+.Our-local-marketing {
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.69;
+    color: #555555;
+}
+.correct{
+    color: #449D44!important;
+}
+/**********************************Fitspot Trainer*****************************/
+.With-Fitspot-You-Ca {
+
+    font-size: 36px;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+}
+.ELEVATE-YOUR-CAREER {
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2.03;
+    color: #333333;
+}
+.Get-expert-guidance {
+
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+}
+.Trainer-Success-Stor {
+
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    color: #333333;
+}
+.Trainer-Success-Stor-text{
+    color:#333;
+    line-height: 1.6;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+}
+.Lorem-magna-aliqua-a {
+
+    font-size: 14px;
+    line-height: 1.61;
+    text-align: center;
+    color: #333333;
+}
+.We-take-care-of-mark {
+
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+/****************************************Individual Services*******************/
+.services-title{
+    color: #333;
+
+}
+.services-title:hover{
+    text-decoration: none!important;
+    color: #333;
+}
+.single-service-content p {
+
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.63;
+    color: #333333;
+    padding-bottom: 26px;
+
+}
+.SERVICES {
+    font-weight: 600;
+    font-size: 16px;
+    color: #878787;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+/*.Personal-Training-Bo {
+
+    font-size: 16px;
+    line-height: 2.19;
+    color: #333333;
+}*/
+#service-links .widget-title{
+    display: none;
+}
+#service-links ul{
+    list-style: none;
+}
+#service-links ul li{
+    display: block;
+}
+#service-links ul li a{
+    font-size: 16px;
+    line-height: 2.19;
+    color: #333333;
+    /*font-weight: 600;*/
+}
+#service-links ul li.current-menu-item a{
+    font-weight: 600;
+    position: relative;
+    left: -8px;
+}
+#service-links ul li.current-menu-item a:before
+{
+    content: '\203A';
+    position: relative;
+    left: -5px;
+    color: #20201f;
+    line-height: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+/***********************************FAQ*******************************************/
+.faq_tabs{
+    border: solid 0.5px #74ba31;
+    padding-bottom:30px;
+}
+
+.faq-tabs li {
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 0;
+}
+.faq-tab-width ul.faq-tabs{
+    list-style: none;
+    float: none;
+    text-align: center;
+}
+.faq-tab-width .faq-tabs li{
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline-block;
+}
+.faq:hover{
+    text-decoration: none!important;
+}
+.faq-tabs li a{
+    color:#333;
+    border: solid 0.5px #74ba31;
+    border-bottom:0px!important;
+    font-size: 16px;
+    font-weight: 600;
+    padding:27px 0;
+    margin: 0 !important;
+    text-align: center;
+    background-color: #F2F6ED;
+    text-decoration:none;
+    outline: none;
+    border-radius: 0 !important;
+}
+.faq-tabs li a:hover, .faq-tabs li a:focus {
+
+    border: solid 0.5px #74ba31;
+    background-color:transparent;
+}
+.active{
+    background-color: transparent;
+    z-index: 1;
+
+}
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover, .nav-tabs.nav-justified>.active>a:focus{
+    border: solid 0.5px #74ba31;
+    border-radius: 0;
+    box-shadow:0px 15px 0px -1px #fff;
+}
+.active a{
+    color: #74ba31!important;  
+}
+.faqsection{
+    background-color: transparent!important;
+    border-color:transparent!important;
+    box-shadow: none!important;
+}
+.faqsection-heading{
+    border:0px solid transparent!important;
+    background-color: transparent!important;
+}
+.Can-I-get-Fitspot-ou {
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+}
+.icon:before:first-child{
+    content: "this is ";
+    font-weight: bold;
+    font-style: italic;
+}
+.Yes-We-are-live-in {
+
+    font-size: 16px;
+    line-height: 1.81;
+    color: #333333;
+}
+
+
+.indicator{
+    color:#74ba31!important;
+    font-size: 10.5px;
+}
+.faq-question-link:hover{
+    text-decoration: none;
+}
+.liactive{
+    background-color: #000;
+}
+.margintop35{
+    margin-top: 35px;
+}
+
+
+
+
+@media only screen and  (max-width: 705px) {
+    /*****Faq****/
+    .faq-tab-width{
+        padding:0;
+    }
+    .faq-tab-width .faq-tabs li{
+        width:32%;
+    }
+
+    .faq-tabs li a,.panel-title {
+        font-size: 13px;
+        box-shadow: 0;
+    }
+}
+
+@media only screen and  (max-width: 500px) {
+
+    .faq-tabs li a{
+        padding: 18px 0;
+        border: solid 1px #74ba31 !important;
+    }
+    .faq-links{
+        padding: 0;
+    }
+}

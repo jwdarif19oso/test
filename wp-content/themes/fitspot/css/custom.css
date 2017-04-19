@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+#page-content-scrollable > .banner {
+    background-repeat: no-repeat;
+}
+
+#page-content-scrollable > .banner.b2b_page_banner {
+    min-height: 390.5px;
+    object-fit: contain;
+}
+
+.b2b_page_banner .banner-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 46px;
+}
+
+.b2b_page_banner .banner-content h2 {
+    font-size: 18px;
+    text-align: left;
+}
+
+.register_btn {
+    width: 50%;
+    text-align: center
+}
+
+.register_btn button {
+    min-width: 239px;
+    padding: 17px;
+    border: none;
+    border-radius: 4px;
+    background-color: #74ba31;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.call_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    padding-top: 15px;
+}
+.call_text a{
+    color: white !important;
+}
+
+.call_text a:hover{
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+/*Client Section*/
+#b2b_page_main .clients_content {
+    padding: 20px;
+}
+
+#b2b_page_main .clients_content p {
+    padding-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #878787;
+}
+
+#b2b_page_main .clients_content .img {
+    padding: 25px 15px;
+}
+
+/*Performance Section*/
+#b2b_page_main .section-performance-container {
+    background-color: #3e3e3e;
+    padding: 45px 0;
+}
+
+#b2b_page_main .section-performance ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#b2b_page_main .section-performance ul li {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 0 30px;
+}
+
+#b2b_page_main .section-performance ul li:first-child {
+    padding-left: 0;
+    padding-right: 55px;
+}
+
+#b2b_page_main .section-performance ul li:last-child {
+    padding-right: 0;
+    padding-left: 55px;
+}
+
+#b2b_page_main .section-performance ul li h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 5px;
+}
+
+.section-performance ul li .performance_des {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+/*Why Welness Section*/
+#b2b_page_main .section-benefits > h2 {
+    margin-bottom: 30px;
+}
+/*Pricing Setion*/
+#b2b_page_main .pricing-item .price{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #63b025;
+}
+#b2b_page_main .pricing-item .charge_frequecy{
+    font-size: 18px;
+}
+#b2b_page_main .pricing_btn{
+    margin-top: 49px;
+    color: #ffffff;
+}
+/*Services Section*/
+#b2b_page_main .section-services-container {
+
+}
+
+/*Team Section*/
+#b2b_page_main .section-team-container {
+    background: #fff;
+}
+
+#b2b_page_main .section-team > h2 {
+    margin-bottom: 15px;
+}
+
+#b2b_page_main .section-team .team-detail p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+#b2b_page_main .team-members .team-member {
+    width: 33%;
+    text-align: center;
+    margin-bottom:70px;
+    margin-right: 0;
+}
+
+#b2b_page_main .team-members .team-member .title {
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+#b2b_page_main .team-members .team-member .designation {
+    color: #878787;
+}
+
+#b2b_page_main .section-team a.btn {
+    margin-top: 0;
+    margin-bottom: 33px;
+}
+
+#b2b_page_main .section-testimonials-container {
+    background-color: #f2f6ee;
+
+}
+
+#b2b_page_main .testimonials-services .testimonials-item .content {
+    margin-bottom: 3px;
+}
+
+#b2b_page_main .testimonials-services .testimonials-item .content,
+#b2b_page_main .testimonials-services .testimonials-item .content p,
+#b2b_page_main .testimonials-services > h2 p,
+#b2b_page_main .testimonials-services .testimonials-item .title,
+#b2b_page_main .testimonials-services .testimonials-item .title p {
+    color: #333333;
+}
+
+#b2b_page_main .testimonials-services .testimonials-item .title,
+#b2b_page_main .testimonials-services .testimonials-item .title p {
+    font-weight: 600;
+}
+
+/*Testimonial Section*/
+#b2b_page_main .image-testimonial{
+    text-align: center;
+    margin-bottom: 7px;
+}
+/*Contact Page*/
+.contact_page_main header#masthead {
+    background-color: #f2f6ee;
+}
+
+.contact_page_main .contact_number {
+    padding-top: 7px;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+
+.contact_page_main .section-testimonials-container {
+    padding: 0;
+}
+
+.form_content {
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #cddabe;
+    padding: 28px 62px;
+}
+
+.form_content h2 {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626;
+    margin-bottom: 20px;
+}
+
+.form_content label {
+
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #262626;
+    margin-bottom: 5px;
+}
+
+.form_content span input,
+.form_content span select {
+    width: 100%;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 0.5px #979797;
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 8px 16px;
+}
+
+.form_content span select {
+    padding: 6px 12px;
+}
+
+.form_content .fn-name,
+.form_content .ln-name {
+    width: 47%;
+    float: left;
+}
+
+.form_content .ln-name {
+    float: right;
+}
+
+.form_content .submit_btn {
+    width: 100%;
+    border-radius: 4px;
+    background-color: #74ba31;
+    border: solid 1px #50950e;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 5px;
+}
+div.wpcf7-validation-errors,span.wpcf7-not-valid-tip{
+    top: -12px;
+    position: relative;
+}
+/*TEstimonial Section*/
+.contact_page_main .testimonials_content h2 {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #878787;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    padding-left: 16px;
+}
+
+.contact_page_main .testimonials-services .testimonials-item .content,
+.contact_page_main .testimonials-services .testimonials-item .content p {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #555555;
+    text-align: left;
+    padding-right: 4px;
+}
+
+.contact_page_main .testimonials-services .testimonials-item .title p,
+.contact_page_main .testimonials-services .testimonials-item .title {
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #555555;
+    text-align: right;
+}
+
+.contact_page_main .people_say {
+    padding: 40px 0 0 70px;
+}
+
+.contact_page_main .people_say .testimonials-item {
+    margin-bottom: 45px;
+    margin-top: 0;
+}
+.contact_page_main .image-testimonial{
+    text-align: right;
+    margin-top: 5px;
+}
+.contact_page_main .image-testimonial img{
+    filter:grayscale(100%);
+    -o-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+    height: 25px;
+}
+
+
+
+
+
+
+/*Responsiveness*/
+
+@media (max-width: 991px) {
+    .contact_page_main .site-branding {
+        position: initial;
+    }
+
+    .contact_page_main .people_say .testimonials-item {
+        margin-top: 0;
+    }
+    .contact_page_main .people_say{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact_page_main .section-benefits-container {
+        background-color: #f2f6ee !important;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .contact_page_main .contact_number{
+        text-align: center;
+        float:none !important;
+    }
+    .contact_page_main .contact_number b{
+        display: block;
+    }
+    .contact_page_main .site-branding {
+        float: none !important;
+        text-align: center;
+    }
+    .form_content {
+        padding: 28px;
+    }
+
+    .form_content h2 {
+        font-size: 22px;
+    }
+    .form_content label {
+        font-size: 13px;
+    }
+    .form_content .fn-name,
+    .form_content .ln-name {
+        width: 100%;
+        float: none;
+    }
+    div.wpcf7-validation-errors,span.wpcf7-not-valid-tip{
+        font-size: 13px;
+        top: -12px;
+        position: relative;
+    }
+}
+
+@media (max-width: 375px) {
+    .form_content h2 {
+        font-size: 20px;
+    }
+    .form_content {
+        padding: 25px 18px;
+    }
+}

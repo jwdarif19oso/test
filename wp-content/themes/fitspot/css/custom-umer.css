@@ -1,0 +1,947 @@
+.out_story_container{
+    padding-top: 40px;
+}
+
+.out_story_container .sidebar
+{
+    float: left;
+   /* margin-right: 166px; */
+    width:22%;
+
+}
+.out_story_container .sidebar h2
+{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #a0a0a0;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.out_story_container .sidebar ul
+{
+    list-style-type: none;
+}
+.out_story_container .sidebar ul li a
+{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.19;
+    letter-spacing: normal;
+    color: #333333;
+}
+.out_story_container .sidebar ul li.current-menu-item:before
+{
+    content: "\f105";
+    font-family: FontAwesome;
+    margin-right: 5px;
+    font-weight: 600;
+    margin-left: -10px;
+}
+
+.out_story_container .sidebar ul li.current-menu-item a
+{
+    font-weight: 600;
+}
+.out_story_container .story_page_content
+{
+    float: left;
+    width:78%;
+    margin-bottom: 98px;
+}
+.out_story_container .story_page_content p
+{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.63;
+    color: #333333;
+}
+/*.out_story_container .story_page_content .image-container
+{
+    width: 410px;
+    float: left;
+
+}
+*/
+.out_story_container .story_page_content img
+{
+    /*height: 273px; */
+    border: solid 7px #efefef;
+    float: left;
+    margin-right: 20px;
+}
+.workout-form-tpl
+{
+    background: url("../images/booking-form-bg.jpg");
+    background-size: cover;
+   /* float: left;
+    width: 100%; */
+}
+.workout-form-tpl .form-content
+{
+    float: left;
+    width: 100%;
+    padding: 30px 0 10px 0;
+}
+.workout-form-tpl .form-content h3
+{
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.workout-form-tpl .form-content{
+    text-align: center;
+}
+
+.workout-form-tpl .form-container
+{
+    display: inline-block;
+    /*width: 100%; */
+    background-size: 100%;
+   /* padding: 20px 20px 30px 20px; */
+
+    /*height: 50px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.workout-form-tpl .form-container h3 {
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.workout-form-tpl .form-container .select
+{
+    border-right: solid 1px #dadada;
+    height: 50px;
+}
+.workout-form-tpl .form-container .first {
+    width: 275px;
+    float: left;
+}
+.workout-form-tpl .form-container .second {
+    width: 190px;
+    float: left;
+}
+.workout-form-tpl .form-container .third {
+    width: 170px;
+    float: left;
+}
+.workout-form-tpl .form-container select {
+    width: 100%;
+    /*padding: 0 18px; */
+    border: none;
+    height: 50px;
+}
+.workout-form-tpl .form-container select
+{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #878787;
+    padding: 10px;
+}
+.workout-form-tpl .form-container .formLastElement{
+    background-color: #f48120;
+    padding: 13px;
+    color: #fff;
+    border: solid 1px #f48120;
+    height: 50px;
+    margin-top: 0px;
+}
+@media only screen and (max-width: 1122px)
+{
+}
+@media only screen and (max-width: 970px)
+{
+}
+@media only screen and (max-width: 870px)
+{
+    .workout-form-tpl .form-container .first {
+        width: 210px;
+    }
+    .workout-form-tpl .form-container .second {
+        width: 155px;
+    }
+    .workout-form-tpl .form-container .third {
+        width: 110px;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+
+    .workout-form-tpl .form-container .first {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .workout-form-tpl .form-container .second {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .workout-form-tpl .form-container .third {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .workout-form-tpl .form-container .formLastElement {
+        width: 100%;
+    }
+    .workout-form-tpl .form-container .select
+    {
+        border: none;
+    }
+
+    /*Sidebar of our company page */
+
+    .out_story_container .sidebar
+    {
+        display: none;
+    }
+    .out_story_container .story_page_content
+    {
+        width: 100%;
+    }
+    .site-content .container {
+        padding-top: 21px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    /* .out_story_container .story_page_content img
+     {
+       /*margin-left: -21px;
+         margin-right: -21px;
+         position: relative;
+         width: auto;
+         margin-bottom: 10px;
+
+
+        width: 100%;
+        float: left;
+    } */
+
+    .out_story_container .story_page_content {
+        margin-bottom: 52px;
+    }
+
+    .out_story_container .story_page_content p{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.72;
+    }
+}
+@media only screen and (max-width: 620px)
+{
+    .workout-form-tpl .form-container
+    {
+        margin-left: 0%;
+    }
+}
+
+/*Team page*/
+
+.team_page_content
+{
+    float: left;
+    width: 78%;
+    margin-bottom: 155px;
+}
+.team_page_content h3
+{
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 57px;
+}
+.team_page_content .team-container
+{
+    width: 33%;
+    float: left;
+}
+
+.team_page_content .team-container:nth-child(3n) {
+    text-align: right !important;
+}
+.team_page_content .team-container:nth-child(2n+1) {
+    text-align: center;
+}
+.team_page_content .team-container:nth-child(1) {
+    text-align: left;
+}
+.team_page_content .team-container:nth-child(2) {
+    text-align: center;
+}
+
+.team_page_content .team-container .personal-info
+{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.team_page_content .team-container .personal-info img
+{
+    width: 150px;
+   /* float: left; */
+    margin-bottom: 11px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    border-radius: 1000px;
+}
+.team_page_content .team-container .personal-info h4
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 5px;
+}
+.team_page_content .team-container .personal-info p
+{
+    font-size: 15px;
+    font-weight: normal;
+    color: #333333;
+}
+.team_page_content .myModal
+{
+    padding-top: 100px;
+}
+.team_page_content .modal-body
+{
+    padding: 0px;
+    border-radius: 10px;
+
+}
+.team_page_content .modal-body .modal-body-content
+{
+    margin: 42px;
+}
+.team_page_content .modal-body .top-border
+{
+    height: 10px;
+    background-color: #74ba31;
+    margin-bottom: 21px;
+}
+.team_page_content .modal-body button
+{
+    font-size: 23px;
+    color: #333333;
+    /* float: left; */
+    text-align: right;
+    margin-right: 43px;
+}
+.team_page_content .modal-body .close-button
+{
+    opacity: 1;
+    font-weight: normal;
+
+}
+.team_page_content .modal-body .close
+{
+    opacity: 1;
+    font-weight: normal;
+}
+.team_page_content .modal-body .modal-body-content .header-container
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.team_page_content .modal-body .modal-body-content .header-container .image-container
+{
+    float: left;
+    width: 150px;
+}
+.team_page_content .modal-body .modal-body-content .header-container .person-post-content
+{
+    float: left;
+    margin: 16px 0px 0px 30px;
+}
+.team_page_content .modal-body .modal-body-content .header-container .person-post-content h4
+{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.team_page_content .modal-body .modal-body-content .header-container .person-post-content h4+p{
+    font-size: 20px;
+}
+.team_page_content .modal-body .modal-body-content .modal-body-text p
+{
+    font-size: 16px;
+    line-height: 1.81;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.team_page_content .modal-body .modal-body-content .header-container .person-post-content img
+{
+    background-image: linear-gradient(to bottom, #fcfcfc, #d9d9d9);
+    border: solid 1px #cccccc;
+    margin-top: 18px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.our_team_banner
+{
+    background: url("../images/team-hero-b-g.png");
+    background-size: contain;
+}
+.press_banner
+{
+    background: url("../images/team-hero-b-g.png");
+    background-size: contain;
+}
+.our_story_banner
+{
+    background: url("../images/our-story-hero-bg.png");
+    background-size: contain;
+}
+.jobs_banner
+{
+    background: url("../images/jobs-b-g.png");
+    background-size: contain;
+}
+
+
+/* Press Page */
+.press_page_content{
+    margin-top: 21px;
+}
+.press_page_content .press_row h3
+{
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 1.55;
+    color: #000000;
+    margin: 0px;
+    text-align: left;
+}
+.press_page_content .press_row .title-container
+{
+    width: calc(100% - 200px);
+}
+.press_page_content .press_row
+{
+    float: left;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.press_page_content .press_row:not(:last-child)
+{
+    border-bottom: solid 1px #dadada;
+}
+.press_page_content .press_row:not(:first-child)
+{
+    margin-top: 15px;
+}
+
+.press_page_content .press_row > a{
+    display: flex;
+}
+
+.press_page_content .press_row .image-container,
+.press_page_content .press_row .title-container{
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.press_page_content .press_row .image-container
+{
+    width: 200px;
+    text-align: center;
+}
+.press_page_content .press_row .image-container div
+{
+    display: inline-block;
+    width: 100%;
+}
+.press_page_content .press_row .image-container div img
+{
+    margin-top: 10px;
+}
+
+
+/* Job Page */
+
+.jobs_page_content h3
+{
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.54;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.jobs_page_content h4
+{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2.15;
+}
+.jobs_page_content p
+{
+    font-size: 16px;
+    line-height: 2.03;
+    margin-bottom: 5px;
+}
+.jobs_page_content .core_values
+{
+    width: 50%;
+    padding-right: 50px;
+    float: left;
+}
+.jobs_page_content .core_values_row, .jobs_page_content .employee_perks_row
+{
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.core_values_main, .perk_benefits_main{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #efefef;
+}
+.employee_perks_row:last-child
+{
+    border-bottom: solid 1px #efefef;
+}
+.company_jobs_main{
+    width: 100%;
+    float: left;
+    margin-bottom: 42px;
+    padding-bottom: 36px;
+    border-bottom: solid 1px #efefef;
+}
+.company_jobs_main p
+{
+    margin-bottom: 20px;
+}
+.trainer_jobs_main
+{
+    width: 100%;
+    float: left;
+}
+.trainer_jobs_main p
+{
+    margin-bottom: 20px;
+}
+.jobs_page_content .core_values_row:not(:last-child), .jobs_page_content .employee_perks_row:last-child
+{
+    border-bottom: 0px;
+}
+.jobs_page_content .core_values h5
+{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2.03;
+}
+.jobs_page_content .core_values p
+{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.jobs_page_content .jobs_title
+{
+    width: 40%;
+    margin-right: 45px;
+    float: left;
+    /* line-height: 1.1px; */
+    margin-bottom: 10px;
+}
+.jobs_page_content .jobs_title h5
+{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    color: #262626;
+    line-height: 2.66;
+}
+
+/* Contact Us */
+
+.contact_us_now .contact_form
+{
+    width: 46%;
+    padding-right: 20px;
+    float: left;
+}
+.contact_us_now .contact_form p:first-child
+{
+    margin-bottom: 26px;
+    font-weight: 600;
+}
+.contact_us_now .contact_form .form_row p:first-child {
+    font-weight: 600;
+}
+.contact_us_now .contact_form .form_row {
+    width: 100%;
+    float: left;
+    margin-bottom: 16px;
+}
+.contact_us_now .contact_form .form_row .field_container:first-child {
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+.contact_us_now .contact_form .form_row .field_container:last-child {
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+}
+.contact_us_now .contact_form .form_row p
+{
+    margin-bottom: 3px;
+}
+.contact_us_now .contact_form .form_row input
+{
+    width: 100%;
+    height: 42px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #dadada;
+    padding: 0px 10px;
+}
+.contact_us_now .contact_form .form_row textarea
+{
+    height: 127px !important;
+    width: 100% !important;
+    padding: 10px;
+    border: solid 1px #dadada;
+}
+
+.contact_us_now .contact_form .form_row textarea:active,
+.contact_us_now .contact_form .form_row input[type="number"]:active,
+.contact_us_now .contact_form .form_row input[type="email"]:active,
+.contact_us_now .contact_form .form_row input[type="text"]:active{
+    border: solid 1px #878787;
+}
+
+div.wpcf7-validation-errors
+{
+    border: none !important;
+}
+div.wpcf7-validation-errors, span.wpcf7-not-valid-tip {
+    top: 2px !important;
+}
+.contact_us_now .contact_form .form_row input[type="submit"]
+{
+    height: 61px;
+    border-radius: 4px;
+    background-color: #efefef;
+    border: solid 1px #cccccc;
+    font-weight: 600;
+}
+.contact_us_now .contact_us_map
+{
+    width: 54%;
+    padding-left: 20px;
+    float: left;
+}
+.contact_us_now .contact_us_map iframe {
+    width: 100%;
+    max-height: 320px;
+    padding: 5px;
+    border: 1px solid #c9d7ba !important;
+}
+.contact_us_now .contact_us_map .office_address p
+{
+    text-align: right;
+    margin-top: 13px;
+}
+.message {
+    width: 100%;
+    border: none !important;
+}
+
+/* Our Services */
+.our_services p
+{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.63;
+    color: #333333;
+    margin-bottom: 60px;
+}
+.our_services .service_container
+{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.our_services .service_container .service_content
+{
+    flex-grow: 1;
+    width: 50%;
+    display: inline-flex;
+    text-align: center;
+    float: left;
+    margin-bottom: 40px;
+}
+.our_services .service_container .service_content .img{
+    min-height: 88px;
+    position: relative;
+    text-align: center;
+}
+.our_services .service_container .service_content .img div
+{
+    left: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+/*.our_services .service_container .service_content .img img {
+    position: absolute;
+    bottom: 0;
+    text-align: -webkit-center;
+    left: 33%;
+}
+*/
+.our_services .service_container .service_content:nth-child(2n)
+{
+    padding-left: 40px;
+}
+.our_services .service_container .service_content:nth-child(2n+1)
+{
+    padding-right: 40px;
+}
+.our_services .service_container .service_content h5
+{
+    margin-top: 17px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #333333;
+}
+.our_services .service_container .service_content p {
+    font-size: 13px;
+    line-height: 1.62;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+/* Location page */
+
+.locations .available_in_cities
+{
+    float: left;
+    width: 200px;
+    margin-right: 50px;
+}
+.locations .coming_soon_cities
+{
+    float: left;
+    width: 200px;
+}
+
+.locations .available_in_cities h3, .locations .coming_soon_cities h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.locations .available_in_cities p, .locations .coming_soon_cities p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.locations .available_in_cities p a
+{
+    color: #229bed;
+}
+.locations .coming_soon_cities p
+{
+    color: #999999;
+}
+.cities_page
+{
+    margin-bottom: 114px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .team_page_content .team-container .personal-info img {
+        width: 120px;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+    .our_team_banner
+    {
+        background: url("../images/team-mobile-hero-bg.png");
+        background-size: contain;
+    }
+    .our_story_banner
+    {
+        background: url("../images/our-story-hero-bg-2.png");
+        background-size: contain;
+    }
+    .press_banner
+    {
+        background:url("../images/press-mobile-hero-bg.png");
+        background-size: contain;
+    }
+    .jobs_banner
+    {
+        background: url("../images/jobs-mobile-hero-bg.png");
+        background-size: contain;
+    }
+    .team_page_content
+    {
+        width: 100%;
+        margin-bottom: 55px;
+        margin-top: 31px;
+    }
+    .team_page_content .team-container {
+        width: 100%;
+    }
+    .team_page_content .team-container {
+        width: 100%;
+    }
+    .team_page_content .team-container .personal-info {
+        margin-bottom: 47px;
+    }
+
+    .team_page_content .team-container
+    {
+        float: none;
+    }
+    .team_page_content .team-container .personal-info
+    {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 47px;
+    }
+    .team_page_content .team-container .personal-info h4 {
+        margin-bottom: 3px;
+    }
+    .team_page_content .team-container .personal-info img
+    {
+        text-align: center;
+        float: none;
+    }
+    .team_page_content h3
+    {
+        display: none;
+    }
+
+    /* Press Page */
+    .press_page_content .press_row .title-container {
+        width: calc(100% - 74px);
+        padding-right: 10px;
+        font-size: 16px;
+        line-height: 1.33;
+        font-weight: 600;
+    }
+    .press_page_content .press_row h3 {
+        font-size: 18px;
+        display: block;
+    }
+    .press_page_content .press_row .image-container {
+        width: 74px;
+        float: left;
+    }
+
+    /* Contact Us */
+    .contact_us_now .contact_form {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .contact_us_now .contact_us_map {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .contact_us_now .contact_form .form_row input[type="submit"] {
+        height: 61px;
+        border-radius: 4px;
+        border: solid 1px #cccccc;
+        background-color: #74ba31;
+        color: #fff;
+        margin-bottom: 45px;
+    }
+    .contact_us_now .contact_us_map .office_address p {
+        text-align: center;
+        margin-top: 13px;
+    }
+
+    /* jobs page */
+
+    .jobs_page_content .core_values {
+        width: 100%;
+        padding-right: 0px;
+        float: left;
+    }
+    .jobs_page_content .jobs_title {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .jobs_page_content .jobs_title a
+    {
+        list-style: disc outside none;
+        display: list-item;
+        color: #333;
+        margin-left: 22px;
+    }
+    .team_page_content {
+        margin-top: 0px !important;
+    }
+    .company_jobs_main {
+        margin-bottom: 35px;
+        padding-bottom: 20px;
+        border-bottom: solid 1px #efefef;
+    }
+
+    .page-template-jobs .team_page_content h3 {
+         display: block;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.67;
+        margin-bottom: 18px;
+    }
+
+    .jobs_page_content p{
+        line-height: 1.5;
+    }
+
+    .core_values_main, .perk_benefits_main{
+        padding-top: 18px;
+    }
+    .jobs_page_content .core_values{
+        padding-bottom: 18px;
+    }
+    .jobs_page_content .core_values_row, .jobs_page_content .employee_perks_row{
+        padding-bottom: 0;
+    }
+
+    .core_values_main, .perk_benefits_main{
+        padding-bottom: 20px;
+    }
+
+    .company_jobs_main p{
+        margin-bottom: 25px;
+    }
+
+    /* Cities (Locations) page */
+
+
+}
+
